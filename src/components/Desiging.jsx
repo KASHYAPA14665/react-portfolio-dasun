@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-
+import design1 from "../assets/ux-1.png"
 const Desiging = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 ">
@@ -16,9 +16,9 @@ const Desiging = () => {
                 class="grid min-h-screen p-8 place-items-center">
   <div class="container grid grid-cols-1 gap-8 my-auto lg:grid-cols-2">
     <div class="relative flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none grid gap-2 item sm:grid-cols-2">
-      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0"><img src="https://bucket.material-tailwind.com/magic-ai/06b38f84f9669f766048c469ce861b81880378273a11ae9badaedfc32868ef44.jpg" alt="Revolutionizing Our Production Process" class="object-cover w-full h-full" /></div>
+      <div class="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0"><img src={design1} alt="Revolutionizing Our Production Process" class="object-cover w-full h-full " /></div>
       <div class="p-6 px-2 sm:pr-6 sm:pl-4">
-        <p class="block antialiased font-sans text-sm font-light leading-normal text-inherit mb-4 !font-semibold">Technology</p><a href="#" class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700">Revolutionizing Our Production Process</a>
+        <p class="block antialiased font-sans text-sm font-light leading-normal text-inherit mb-4 !font-semibold">Figma Design 01</p><a href="https://www.figma.com/design/lxKo3j8cCEsk9qTtLKMsXZ/Figma-Design--01?node-id=0-1&t=0J1zUiSsQEHauNTi-1" class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-blue-gray-900 mb-2 normal-case transition-colors hover:text-gray-700">Go To The Design File</a>
         <p class="block antialiased font-sans text-base leading-relaxed text-inherit mb-8 font-normal !text-gray-500">Learn how our recent investment in new technology has revolutionized our production process, leading to improved efficiency and product quality.</p>
       </div>
     </div>
