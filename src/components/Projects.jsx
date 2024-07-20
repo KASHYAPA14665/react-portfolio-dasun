@@ -17,7 +17,7 @@ const Projects = () => {
                     initial={{opacity: 0 , x: -100}}
                     transition={{duration:1}}
                     className="w-full lg:w-1/3">
-                <img className="mb-6 rounded " src={pro.image} alt="" width="150px" height="150px" srcset="" />
+                <img className="mb-6 rounded " src={pro.image} alt="" width="250px" height="250px" srcset="" />
                 </motion.div>
                 <motion.div 
                     whileInView={{opacity: 1,  x: 0}}
@@ -26,6 +26,7 @@ const Projects = () => {
                     className="w-full max-w-xl lg:w-3/4">
                  <h6 className="mb-2 text-sm font-semibold ">{pro.title}</h6>
                  <p className="mb-4 text-sm text-neutral-400">{pro.description}</p>
+                 <a href="https://github.com/KASHYAPA14665/sri-lanka-tourism.git"><p className="mb-4 text-sm text-blue-600"><u>{pro.gitlink}</u></p></a>
                  {pro.technologies.map((tech, index)=>(
                     <span className="mr-2 rounded bg-neutral-900 text-purple-600 text-sm px-2 py-1 " key={index}>{tech}</span>
                  ))}

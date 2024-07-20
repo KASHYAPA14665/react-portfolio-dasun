@@ -7,12 +7,13 @@ import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
-    <div className="border-b rounded-md border-neutral-900 ">
+    <div className="border-b rounded-md border-neutral-900 pb-4 ">
+<motion.h1 whileInView={{opacity: 1,  y: 0}}
+                initial={{opacity: 0 , y: -100}}
+                transition={{duration:1.5}}
+                className="my-20 text-center text-4xl">Get In Touch</motion.h1>   
 
-
-<h1 className="my-10 text-center text-4xl">Get In Touch</h1>   
-
-<footer class=" ">
+<footer >
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 flex items-center">

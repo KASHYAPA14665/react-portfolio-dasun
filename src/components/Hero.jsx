@@ -33,14 +33,14 @@ const Hero = () => {
                 <motion.span  variants={container(0.5)} 
                 initial="hidden"
                 animate="visible"
-                 className="bg-gradient-to-r from-pink-300 via-slate-500
+                 className="bg-gradient-to-r from-pink-300 via-slate-500 text-center
                 to-purple-500 bg-clip-text tracking-tight text-transparent text-3xl">
                     FrontEnd Developer
                 </motion.span>
                 <motion.p variants={container(1)} 
                 initial="hidden"
                 animate="visible"
-                className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
+                className="my-2 max-w-xl py-6 font-light tracking-tighter text-center lg:text-start">{HERO_CONTENT}</motion.p>
             </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8 flex justify-center ">
