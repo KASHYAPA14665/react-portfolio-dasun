@@ -10,7 +10,7 @@ export const EXPERIENCES = [
     year: "2022 - 2023",
     role: "Web developer Intern (Remote)",
     company: "Bluechip Technology Asia Colombo.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `I develop and maintain web applications with JavaScript, PHP, and MySQL. My work involves creating web pages, fixing bugs, and designing databases. I have hands-on experience with React, Node.js, Figma, RESTful APIs, and Firebase databases. I work closely with my supervisor, discussing project requirements, updates, and timelines to make sure we meet our goals efficiently and effectively.`,
     technologies: ["Javascript", "HTML-5", "CSS", "PHP" ,"My Sql", "Figma", "Boostrap"]
   }
 ];
@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     title: "Tourism Website",
     image: project1,
-    description: "This static website design showcases the stunning palaces of Sri Lanka..",
+    description: "This static website design showcases the stunning palaces of Sri Lanka.",
     gitlink:"https://github.com/KASHYAPA14665/sri-lanka-tourism.git",
     technologies: ["HTML", "CSS", "Javascript", ],
   },
