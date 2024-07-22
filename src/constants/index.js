@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     title: "Tourism Website",
     image: project1,
-    description: "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    description: "This static website design showcases the stunning palaces of Sri Lanka..",
     gitlink:"https://github.com/KASHYAPA14665/sri-lanka-tourism.git",
     technologies: ["HTML", "CSS", "Javascript", ],
   },
